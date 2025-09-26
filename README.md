@@ -8,14 +8,14 @@ pane, Jupyter notebooks, etc.) via `Base.display` and `Base.show`.
 Press `]` to enter the Julia `Pkg` REPL, then enter the following command:
 
 ```julia-repl
-add https://github.com/ztangent/HTMLVideoPreview.jl
+add HTMLVideoPreview
 ```
 
 Or from within a script or Jupyter notebook, use the `Pkg.add` function:
 
 ```julia
 using Pkg
-Pkg.add("https://github.com/ztangent/HTMLVideoPreview.jl")
+Pkg.add("HTMLVideoPreview")
 ```
 
 ## Usage
