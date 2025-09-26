@@ -1,0 +1,16 @@
+name = "HTMLVideoPreview"
+uuid = "d5118dce-eda5-459d-a70b-3db703e13dc6"
+authors = ["Xuan <tanqazx@gmail.com> and contributors"]
+version = "0.1.0"
+
+[deps]
+Base64 = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
